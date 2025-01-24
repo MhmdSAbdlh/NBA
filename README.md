@@ -10,4 +10,11 @@ Features:
 * Final ranking if it is possible 
 * Status(Qualify to Playoffs & Play-In tournament)
 
+ - ## PREVIEW:
+
+![alt text](https://github.com/MhmdSAbdlh/NBA/blob/main/preview/intro.png)
+![alt text](https://github.com/MhmdSAbdlh/NBA/blob/main/preview/east.png)
+![alt text](https://github.com/MhmdSAbdlh/NBA/blob/main/preview/west.png)
+
+
 Created and Designed by MhmdSAbdlh
