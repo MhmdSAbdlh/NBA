@@ -8,49 +8,49 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 @SuppressWarnings("serial")
-class Conf extends JFrame{	
+class Conf extends JFrame {
 
-	Conf(){
-		//Frame
+	Conf() {
+		// Frame
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setResizable(false);
 		this.setSize(600, 600);
 		this.setLocationRelativeTo(null);
 		this.setLayout(null);
 		this.setTitle("NBA Live Standing");
-		this.getContentPane().setBackground(Main.DarkC);
+		this.getContentPane().setBackground(Main.darkC);
 		URL url = getClass().getResource("icon.png");
 		ImageIcon icon = new ImageIcon(url);
 		this.setIconImage(icon.getImage());
-		
-		//Button
+
+		// Button
 		JButton West = new JButton("West");
 		JButton East = new JButton("East");
 		West.setBounds(370, 350, 100, 50);
-		West.setBackground(Main.LightC);
-		West.setForeground(Main.DarkC);
+		West.setBackground(Main.lightC);
+		West.setForeground(Main.darkC);
 		West.setFont(Main.myFont);
 		West.setFocusable(false);
-		West.addActionListener( e -> {
+		West.addActionListener(e -> {
 			this.dispose();
 			new West();
-		});			
+		});
 		East.setBounds(120, 350, 100, 50);
-		East.setBackground(Main.LightC);
-		East.setForeground(Main.DarkC);
+		East.setBackground(Main.lightC);
+		East.setForeground(Main.darkC);
 		East.setFont(Main.myFont);
 		East.setFocusable(false);
-		East.addActionListener( e -> {
+		East.addActionListener(e -> {
 			this.dispose();
 			new East();
 		});
-		
-		//Label
+
+		// Label
 		JLabel title = new JLabel(icon);
 		JLabel subTitle = new JLabel("Choose the Conference");
 		title.setBounds(225, 100, 150, 150);
 		title.setHorizontalAlignment(0);
-		title.setForeground(Main.LightC);
+		title.setForeground(Main.lightC);
 		title.setFont(Main.titleF);
 		title.setFocusable(false);
 		subTitle.setBounds(0, 250, 600, 50);
@@ -58,20 +58,20 @@ class Conf extends JFrame{
 		subTitle.setForeground(Color.white);
 		subTitle.setFont(Main.myFont);
 		subTitle.setFocusable(false);
-		
-		//Credit
+
+		// Credit
 		Main.credit.setHorizontalAlignment(0);
 		Main.credit.setBounds(0, 530, 600, 20);
 		Main.credit.setForeground(Color.white);
-		
-		//Add to frame
+
+		// Add to frame
 		this.add(title);
 		this.add(subTitle);
 		this.add(West);
 		this.add(East);
 		this.add(Main.credit);
-		
-		//Show Visible
+
+		// Show Visible
 		this.setVisible(true);
 	}
 }
