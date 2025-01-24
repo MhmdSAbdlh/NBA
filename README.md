@@ -16,5 +16,8 @@ Features:
 ![alt text](https://github.com/MhmdSAbdlh/NBA/blob/main/preview/east.png)
 ![alt text](https://github.com/MhmdSAbdlh/NBA/blob/main/preview/west.png)
 
+ - ## DOWNLOAD:
+
+[Last Version](https://github.com/MhmdSAbdlh/NBA/releases/tag/v1.0)
 
 Created and Designed by MhmdSAbdlh
